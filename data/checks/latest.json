@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T13:54:54Z",
+ "generated": "2026-11-25T06:59:53Z",
  "latest": {
   "pravo-khabarovsk|russia/khabarovsk/acts": {
    "attempt": 1,
@@ -13,90 +13,42 @@
    },
    "census": {
     "checked": 1176,
-    "current": 1160,
+    "current": 1176,
     "gone": 0,
-    "held": 1160,
-    "newest_in_repo": "2026-10-05",
-    "pending": 16,
-    "repo": 1160,
+    "held": 1176,
+    "newest_in_repo": "2026-11-02",
+    "pending": 0,
+    "repo": 1176,
     "source_in_scope": 1176
    },
-   "check_id": "ru-pravo-khabarovsk-20261124T135030Z",
-   "commits": {
-    "count": 2,
-    "from": "47d95852c3b7840df2ebd8574b340e855398bbed",
-    "to": "fe0e9c215e6b72eae3e1ac400de8569128e507de"
-   },
+   "check_id": "ru-pravo-khabarovsk-20261125T053737Z",
+   "commits": null,
    "corpus": "russia/khabarovsk/acts",
    "error": null,
-   "finished": "2026-11-24T13:54:53Z",
+   "finished": "2026-11-25T05:46:27Z",
    "flags": [],
    "gap": 0,
-   "note": "publication.pravo.gov.ru, block region27: 1176 law-type documents listed (every page read); 1160 held here; 16 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
-   "outcome": "changed",
+   "note": "publication.pravo.gov.ru, block region27: 1176 law-type documents listed (every page read); 1176 held here; 0 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
+   "outcome": "no-change",
    "published": {
-    "added": [
-     "2700202611020001",
-     "2700202611020002",
-     "2700202611020003",
-     "2700202611020004",
-     "2700202611020005",
-     "2700202611020006",
-     "2700202611020007",
-     "2700202611020008",
-     "2700202611020009",
-     "2700202611020010",
-     "2700202611020011",
-     "2700202611020012",
-     "2700202611020013",
-     "2700202611020014",
-     "2700202611020017",
-     "2700202611020018"
-    ],
+    "added": [],
     "changed": [],
     "removed": []
    },
-   "requests": 10,
+   "requests": 13,
    "runner": "lawwatch russia (65e3dde363)",
    "schema": "lexifina-check/1",
    "seen": {
-    "added": [
-     "2700202611020001",
-     "2700202611020002",
-     "2700202611020003",
-     "2700202611020004",
-     "2700202611020005",
-     "2700202611020006",
-     "2700202611020007",
-     "2700202611020008",
-     "2700202611020009",
-     "2700202611020010",
-     "2700202611020011",
-     "2700202611020012",
-     "2700202611020013",
-     "2700202611020014",
-     "2700202611020017",
-     "2700202611020018"
-    ],
+    "added": [],
     "changed": [],
     "removed": []
    },
    "snapshot": "1176 law-type documents in block region27; newest published 2026-11-02",
    "source": "pravo-khabarovsk",
-   "started": "2026-11-24T13:50:30Z",
+   "started": "2026-11-25T05:37:37Z",
    "unexplained": 0,
    "update": {
-    "append": {
-     "commits": 1,
-     "corrections": null,
-     "extended_acts": [
-      "zakony-2026"
-     ],
-     "new_acts": []
-    },
-    "parts": [
-     "95-watch-20261124-001.json"
-    ]
+    "parts": []
    },
    "verify": {
     "cycle_days": 1,
