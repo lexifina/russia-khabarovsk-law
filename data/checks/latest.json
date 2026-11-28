@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T06:09:17Z",
+ "generated": "2026-11-28T06:23:37Z",
  "latest": {
   "pravo-khabarovsk|russia/khabarovsk/acts": {
    "attempt": 1,
@@ -12,26 +12,37 @@
     "sampled": 2
    },
    "census": {
-    "checked": 1176,
+    "checked": 1182,
     "current": 1176,
     "gone": 0,
     "held": 1176,
     "newest_in_repo": "2026-11-02",
-    "pending": 0,
+    "pending": 6,
     "repo": 1176,
-    "source_in_scope": 1176
+    "source_in_scope": 1182
    },
-   "check_id": "ru-pravo-khabarovsk-20261127T052726Z",
-   "commits": null,
+   "check_id": "ru-pravo-khabarovsk-20261128T053609Z",
+   "commits": {
+    "count": 2,
+    "from": "6bb5036ee95ef30152609a2df4d05ba4a04674fb",
+    "to": "f0e8aa4ff67d9e56e86cd60448548615389aca4b"
+   },
    "corpus": "russia/khabarovsk/acts",
    "error": null,
-   "finished": "2026-11-27T05:27:56Z",
+   "finished": "2026-11-28T05:36:49Z",
    "flags": [],
    "gap": 0,
-   "note": "publication.pravo.gov.ru, block region27: 1176 law-type documents listed (every page read); 1176 held here; 0 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
-   "outcome": "no-change",
+   "note": "publication.pravo.gov.ru, block region27: 1182 law-type documents listed (every page read); 1176 held here; 6 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
+   "outcome": "changed",
    "published": {
-    "added": [],
+    "added": [
+     "2700202611270011",
+     "2700202611270012",
+     "2700202611270013",
+     "2700202611270014",
+     "2700202611270015",
+     "2700202611270016"
+    ],
     "changed": [],
     "removed": []
    },
@@ -39,16 +50,33 @@
    "runner": "lawwatch russia (65e3dde363)",
    "schema": "lexifina-check/1",
    "seen": {
-    "added": [],
+    "added": [
+     "2700202611270011",
+     "2700202611270012",
+     "2700202611270013",
+     "2700202611270014",
+     "2700202611270015",
+     "2700202611270016"
+    ],
     "changed": [],
     "removed": []
    },
-   "snapshot": "1176 law-type documents in block region27; newest published 2026-11-02",
+   "snapshot": "1182 law-type documents in block region27; newest published 2026-11-27",
    "source": "pravo-khabarovsk",
-   "started": "2026-11-27T05:27:26Z",
+   "started": "2026-11-28T05:36:09Z",
    "unexplained": 0,
    "update": {
-    "parts": []
+    "append": {
+     "commits": 1,
+     "corrections": null,
+     "extended_acts": [
+      "zakony-2026"
+     ],
+     "new_acts": []
+    },
+    "parts": [
+     "95-watch-20261128-001.json"
+    ]
    },
    "verify": {
     "cycle_days": 1,
@@ -57,7 +85,7 @@
     "method": "the portal's whole listing for the subject (read this check, every page) parsed by the builder (ru_catalogue.parse) and compared, publication day by publication day, with the corpus this repository is built from; each year's newest state rendered by the builder (gitlaw_common) against the files at the tip of main",
     "ok": true,
     "swept": 13,
-    "versions_checked": 225,
+    "versions_checked": 226,
     "versions_differ": 0
    }
   }
