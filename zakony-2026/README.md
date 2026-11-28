@@ -1,6 +1,6 @@
 # Khabarovsk Krai: catalogue of the laws published in 2026 (facts only, no law text)
 
-Законы 2026 · 10 versions, from 2026-02-02 (latest in force: 2026-11-02) · <http://publication.pravo.gov.ru/documents/block/region27>
+Законы 2026 · 11 versions, from 2026-02-02 (latest in force: 2026-11-27) · <http://publication.pravo.gov.ru/documents/block/region27>
 
 | Provision | File | Changes | Last changed |
 | --- | --- | ---: | --- |
@@ -92,3 +92,9 @@
 | Закон № 221 | [221.md](221.md) | 1 | 2026-11-02 |
 | Закон № 222 | [222.md](222.md) | 1 | 2026-11-02 |
 | Закон № 223 | [223.md](223.md) | 1 | 2026-11-02 |
+| Закон № 224 | [224.md](224.md) | 1 | 2026-11-27 |
+| Закон № 225 | [225.md](225.md) | 1 | 2026-11-27 |
+| Закон № 226 | [226.md](226.md) | 1 | 2026-11-27 |
+| Закон № 227 | [227.md](227.md) | 1 | 2026-11-27 |
+| Закон № 228 | [228.md](228.md) | 1 | 2026-11-27 |
+| Закон № 229 | [229.md](229.md) | 1 | 2026-11-27 |
